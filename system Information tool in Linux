@@ -1,13 +1,10 @@
 GUI tools for information gathering of hardware in linux:
 
-
 **************************************
   i-nex:
-  
-  it is a system and hardware Information tool for Linux. I-Nex is a tool that collect information for hardware components available on  system and show it using a user interface.it written in gambas3, python, bash.
-  
-  
-install Dependencies
+it is a system and hardware Information tool for Linux. I-Nex is a tool that collect information for hardware components available on  system and show it using a user interface.it written in gambas3, python, bash.
+ 
+install Dependencies:
 sudo apt-get install debhelper devscripts pkg-config dpkg-dev lsb-release gambas3-dev gambas3-gb-image gambas3-gb-qt5 gambas3-gb-form gambas3-gb-desktop gambas3-gb-form-stock git
 
 install in Ubuntu:
@@ -21,11 +18,39 @@ sudo apt install i-nex
 Install RPM from repository:
 dnf install i-nex i-nex-data
 
+install in arch base:
+sudo pacman -S i-nex libcpuid
+
+
+website:
 http://i-nex.linux.pl
 **************************************
   
   
  	hardinfo:
+  system information and benchmark tool in Linux. It can generate a full statistics on system. 
+  Also, Displays a list of devices:
+Operating System details, Kernel Module, Boot info’s, Languages, File system details, Users.
+Processor Info, Memory info, PCI devices, USB devices, Printer details, Battery Info, Sensors.
+Interfaces, IP Connections, Routing Table, ARP Table, Share Directories, DNS Servers.
+CPU Blowfish, CPU Cryptohash, CPU, Fibonacci, CPU N-Queens, FPU FFT.
+  
+  Required:
+    GTK+ 2.10 (or newer)
+    GLib 2.10 (or newer)
+    Zlib (for zlib benchmark)
+
+install in ubuntu:
+sudo apt update 
+sudo apt install hardinfo
+
+run from terminal:
+$ hardinfo
+
+***************************************
+
+
+
   
  	lshw-gtk:
   
