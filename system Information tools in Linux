@@ -27,9 +27,9 @@ http://i-nex.linux.pl
 **************************************
   
   
- 	hardinfo:
-  system information and benchmark tool in Linux. It can generate a full statistics on system. 
-  Also, Displays a list of devices:
+ 	   hardinfo:
+system information and benchmark tool in Linux. It can generate a full statistics on system. 
+Also, Displays a list of devices:
 Operating System details, Kernel Module, Boot info’s, Languages, File system details, Users.
 Processor Info, Memory info, PCI devices, USB devices, Printer details, Battery Info, Sensors.
 Interfaces, IP Connections, Routing Table, ARP Table, Share Directories, DNS Servers.
@@ -47,6 +47,7 @@ sudo apt install hardinfo
 run from terminal:
 $ hardinfo
 
+https://pkgs.org/download/hardinfo
 ***************************************
 
 
