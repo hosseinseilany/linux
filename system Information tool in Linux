@@ -1,0 +1,55 @@
+GUI tools for information gathering of hardware in linux:
+
+
+**************************************
+  i-nex:
+  
+  it is a system and hardware Information tool for Linux. I-Nex is a tool that collect information for hardware components available on  system and show it using a user interface.it written in gambas3, python, bash.
+  
+  
+install Dependencies
+sudo apt-get install debhelper devscripts pkg-config dpkg-dev lsb-release gambas3-dev gambas3-gb-image gambas3-gb-qt5 gambas3-gb-form gambas3-gb-desktop gambas3-gb-form-stock git
+
+install in Ubuntu:
+sudo add-apt-repository ppa:gambas-team/gambas3 && \
+sudo add-apt-repository ppa:i-nex-development-team/stable && \
+sudo apt-get update
+
+Install from repository:
+sudo apt install i-nex
+
+Install RPM from repository:
+dnf install i-nex i-nex-data
+
+http://i-nex.linux.pl
+**************************************
+  
+  
+ 	hardinfo:
+  
+ 	lshw-gtk:
+  
+ 	sysinfo:
+  
+ 	speccy:
+  
+ 	system spec:
+  
+ 	hwinfo:
+  
+ 	pc wizard:
+  
+ 	system information viewer (siv):
+  
+ 	system information for windows (siw):
+  
+ 	cpu-z:
+  
+ 	gpu-z:
+  
+ 	mitec system information x:
+  
+ 	kiwi system info:
+  
+ 	astra32 / astra:
+  
